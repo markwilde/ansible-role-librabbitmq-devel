@@ -1,0 +1,3 @@
+---
+- name: redhat | install files needed for developing applications with amqp
+  yum: name={{yum_package}} state=installed
